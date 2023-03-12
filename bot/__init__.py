@@ -674,7 +674,7 @@ if len(BASE_URL) == 0:
 
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 if len(UPSTREAM_REPO) == 0:
-   UPSTREAM_REPO = 'https://github.com/SN-ABDULLAH-AL-NOMAN/SN-MLTB'
+   UPSTREAM_REPO = 'https://ItzQueen-TG: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@github.com/ItzQueen-TG/XD'
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 if len(UPSTREAM_BRANCH) == 0:
