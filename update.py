@@ -48,7 +48,7 @@ if UPDATE_PACKAGES.lower() == 'true':
     packages = [dist.project_name for dist in working_set]
     scall("pip install " + ' '.join(packages), shell=True)
 
-UPSTREAM_REPO = "https://ItzQueen-TG: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@github.com/ItzQueen-TG/XD"
+UPSTREAM_REPO = "https://github.com/ItzQueen-TG/XD"
 UPSTREAM_BRANCH = 'master'
 
 if UPSTREAM_REPO is not None:
